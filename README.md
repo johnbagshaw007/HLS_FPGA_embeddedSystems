@@ -1,3 +1,5 @@
+# FPGA-Based Traffic Light Controller
+
 ![Screenshot 2024-02-15 190723](https://github.com/johnbagshaw007/HLS_FPGA_embeddedSystems/assets/151597980/0b7baadc-cb9a-4ff5-b1c8-d8d48497861c)
 ![Screenshot 2024-02-15 203656](https://github.com/johnbagshaw007/HLS_FPGA_embeddedSystems/assets/151597980/38b0e379-3e47-439e-aa59-5a9c0373b44a)
 ![Screenshot 2024-02-15 204206](https://github.com/johnbagshaw007/HLS_FPGA_embeddedSystems/assets/151597980/8a2d166a-61b9-4c4e-a74a-d3c989475741)
@@ -6,7 +8,7 @@
 ![1000010038](https://github.com/johnbagshaw007/HLS_FPGA_embeddedSystems/assets/151597980/847f8f1e-d3f2-4027-a0bf-d66b4ad81a0a)
 ![1000010039](https://github.com/johnbagshaw007/HLS_FPGA_embeddedSystems/assets/151597980/b3f46541-cde3-438d-9506-a5fd13fe53dd)
 
-FPGA-Based Traffic Light Controller
+
 
 This repository contains a High-Level Synthesis (HLS) implementation of an FPGA-based traffic light control system, 
 designed to provide an efficient solution for traffic management at intersections. The HLS design flow facilitates a high abstraction level, 
@@ -39,7 +41,7 @@ This traffic light controller is ideal for educational purposes, showcasing the 
 The complete design flow from HLS coding to on-board verification provides a comprehensive view of modern FPGA-based system design.
 
 
-#HLS 8-bit Adder Project
+# HLS 8-bit Adder Project
 
 
 ![1000010041](https://github.com/johnbagshaw007/HLS_FPGA_embeddedSystems/assets/151597980/cd6d6575-c39d-4874-bfbf-1efc0eb8f8c9)
