@@ -84,3 +84,45 @@ Ideal Use Cases
 Our 8-bit adder is perfect for educational environments to illustrate HLS methodologies or as a fundamental building block in larger, more complex FPGA-based systems. The complete design flow—from HLS coding to on-board verification—offers a transparent view into modern FPGA system design practices.
 
 For a deeper dive into each file and the design process, please refer to the documentation provided in the repository. Contributions and feedback are always welcome as we continue to refine and enhance our HLS implementations
+
+
+# HLS 4-bit Comparator: A Masterclass in FPGA Design Efficiency
+
+![1000010050](https://github.com/johnbagshaw007/HLS_FPGA_embeddedSystems/assets/151597980/610cd462-0ea0-49e0-bce4-f9b6b9db7590)
+![1000010051](https://github.com/johnbagshaw007/HLS_FPGA_embeddedSystems/assets/151597980/e7380785-6f5d-4ddb-82ae-1b59ef41b569)
+![1000010052](https://github.com/johnbagshaw007/HLS_FPGA_embeddedSystems/assets/151597980/4f230c29-b106-4010-9afb-d378ee1f28c7)
+![Screenshot 2024-02-16 025923](https://github.com/johnbagshaw007/HLS_FPGA_embeddedSystems/assets/151597980/7ab8fcf5-b518-428a-b3cb-9cbcff66c35a)
+![Screenshot 2024-02-16 023358](https://github.com/johnbagshaw007/HLS_FPGA_embeddedSystems/assets/151597980/c0ff4221-edf2-407d-8983-e90576035531)
+![Screenshot 2024-02-16 022926](https://github.com/johnbagshaw007/HLS_FPGA_embeddedSystems/assets/151597980/695b0ab9-db1a-4c2d-8369-a87fa12499fd)
+![Screenshot 2024-02-16 022350](https://github.com/johnbagshaw007/HLS_FPGA_embeddedSystems/assets/151597980/5e46a96d-c535-4a74-9e44-5698a6d7a78f)
+![Screenshot 2024-02-16 022041](https://github.com/johnbagshaw007/HLS_FPGA_embeddedSystems/assets/151597980/52a047dc-122d-4e3a-9310-7f6c559c4b51)
+
+
+🔍 Dive into the realm of HLS where design meets efficiency at its finest. Our latest GitHub repository unveils a meticulously designed HLS 4-bit Comparator, demonstrating a seamless integration of HLS design implementation and RTL IP generation, tailor-made for the various FPGA platform.
+
+Project Insights
+🖥️ RTL IP Generation: We've transmuted high-level C++ into a reusable RTL IP core, optimized to fit snugly within the robust FPGA architecture.
+
+💡 Simulation Testbench: The HLS_4bit_comparatorTB.cpp is our testament to precision, ensuring that every possible comparison scenario is tested, verified, and validated.
+
+🛠️ Design Constraints: Our XDC files are crafted to articulate the exact pin assignments and timing constraints, fostering a seamless synthesis process that is in complete harmony with FPGA capabilities.
+
+📈 Performance Tuning: We've dialed in every aspect of the design for peak performance. Our comparator is pipelined to perfection, as shown in the waveforms, guaranteeing high-speed operation and efficient DSP utilization.
+
+Technical Breakthroughs
+🚀 Pipelined HLS Design: We've pushed the envelope with a #pragma HLS PIPELINE directive, enhancing the data processing to a point where speed converges with efficiency.
+
+✨ Testbench Validation: Our simulation testbench has been rigorously evaluated, proving the design's resilience and stability under a myriad of conditions, as seen in the waveform snapshots.
+
+🛠️ Bitstream Generation: We've crossed the final frontier with a successful bitstream generation, paving the way for real-world application and on-board (HIL) design verification.
+
+Real-World Application
+🌐 The 4-bit Comparator is more than just code; it's a gateway to a new era of FPGA design, promising to revolutionize the speed and accuracy of digital comparison in embedded systems.
+
+👩‍🏫 Educational Brilliance: For the curious minds, our repository offers a deep dive into the HLS methodology, serving as a rich educational resource for students and professionals alike.
+
+🏭 Industrial Strength: Engineered for robustness, the comparator is ready to be deployed in industrial applications, where precision and speed are not just desired but demanded.
+
+Embark on this journey with us on GitHub as we explore the limitless potential of HLS in FPGA design. Whether you're a seasoned engineer or an FPGA hobbyist, our 4-bit Comparator is a marvel of modern engineering waiting to be discovered.
+
+Your stars and forks are the fuel that keeps our innovation engine running. Star us on GitHub, fork the repository, and join the FPGA revolution today! 🌟
